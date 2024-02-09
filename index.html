@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <div class="calculator-container">
+            <div class="input-container">
+                <label for="input"><span id="input-text-temp">Celcius</span> (&deg;<span id="input-logo-temp">C</span>)</label>
+                <input type="number" class="form-control" id="input">
+            </div>
+            <div class="button-container">
+                <button type="button" id="convert" class="btn btn-primary btn-md btn-block">Convert</button>
+                <button type="button" id="reset" class="btn btn-warning btn-md btn-block">Reset</button>
+                <button type="button" id="change" class="btn btn-danger btn-md btn-block">Change</button>
+            </div>
+            <div class="result-container">
+                <label for="input"><span id="result-text-temp">Fahrenheit</span> (&deg;<span id="result-logo-temp">F</span>)</label>
+                <input type="number" class="form-control" id="result" disabled>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
