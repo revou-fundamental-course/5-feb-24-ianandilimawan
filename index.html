@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator Temperature</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -22,9 +22,20 @@
                 <label for="input"><span id="result-text-temp">Fahrenheit</span> (&deg;<span id="result-logo-temp">F</span>)</label>
                 <input type="number" class="form-control" id="result" disabled>
             </div>
+            <div class="formula-note">
+                <h1 id="conversion-title">Cara Conversi Dari Celcius(&deg;C) Ke Fahrenheit(&deg;F)</h1>
+                <p id="conversion-text">
+                    Suhu <span class="superscript">S</span> dalam derajat Fahrenheit (&deg;F)sama dengan suhu <span class="superscript">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32
+                    <br><br>
+                    S<span class="subscript">(&deg;F)</span> = (S<span class="subscript">(&deg;S)</span> x 9/5) + 32
+                    <br><br>
+                    atau
+                    <br><br>
+                    S<span class="subscript">(&deg;F)</span> = (S<span class="subscript">(&deg;S)</span> x 1.8) + 32
+                </p>
+            </div>
         </div>
     </main>
-
     <script src="./js/index.js"></script>
 </body>
 </html>

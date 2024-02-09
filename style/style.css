@@ -98,8 +98,8 @@ body {
     color: #00000085;
 }
 .calculator-container {
-    width: 425px;
-    height: 400px;
+    max-width: 385px;
+    height: 550px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px #a6a6a669;
@@ -123,4 +123,18 @@ body {
     margin: 20px 0px;
     gap: 10px;
     width: 100%;
+}
+.formula-note {
+    margin-top: 20px;
+}
+.formula-note h1 {
+    font-size: 14px;
+}
+.superscript {
+    font-size: larger;
+    font-style: italic;
+}
+.subscript {
+    vertical-align: sub;
+    font-size: smaller;
 }
