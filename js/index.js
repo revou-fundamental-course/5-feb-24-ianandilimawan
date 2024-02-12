@@ -4,6 +4,8 @@ let resultValue = '';
 var titleElement = document.getElementById("conversion-title");
 var textElement = document.getElementById("conversion-text");
 
+document.getElementById('mainElement').classList.add('show');
+
 function celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
